@@ -1,5 +1,5 @@
 const app = document.getElementById("app");
-const API_URL = "http://localhost:8080";
+const API_URL = "https://mono-repo-render-first-server.onrender.com";
 
 async function fetchPokemon() {
   const response = await fetch(`${API_URL}/pokemon`);
